@@ -1,0 +1,17 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./base/common";
+@import "./base/container";
+/* =========== COMPONENTNS ===========*/
+@import "./components/common-components";
+@import "./components/backdrop";
+@import "./components/modal-window-form";
+/* ===========LAYOUT===========*/
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/specialization";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/partfolio";

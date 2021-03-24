@@ -1,0 +1,41 @@
+/* ====================== Clients ==========================================*/
+.title-clients {
+    margin-top: 0;
+    margin-bottom: 50px;
+  
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+  }
+  .clients-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .link-clients-logo {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+  }
+  .link-clients-logo:hover,
+  .link-clients-logo:focus {
+    border: 1px solid var(--akcent-color);
+  }
+  .clients-logo {
+    margin: auto;
+    width: 45px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    fill: #afb1b8;
+  }
+  .link-clients-logo:hover .clients-logo,
+  .link-clients-logo:focus .clients-logo {
+    fill: var(--akcent-color);
+  }
