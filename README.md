@@ -12,24 +12,44 @@
 -Все паршалы лежат в отдельных папках:  
 
 @import "./utils/variables";
+
 @import "./utils/visually-hidden";
+
 /* ===========BASE===========*/
+
 @import "./base/common";
+
 @import "./base/container";
+
 /* =========== COMPONENTNS ===========*/
+
 @import "./components/section";
+
 @import "./components/title";
+
 @import "./components/logo";
+
 @import "./components/backdrop";
+
 @import "./components/modal-form";
+
 /* ===========LAYOUT===========*/
+
 @import "./layout/header";
+
 @import "./layout/hero";
+
 @import "./layout/features";
+
 @import "./layout/specialization";
+
 @import "./layout/team";
+
 @import "./layout/clients";
+
 @import "./layout/footer";
+
 @import "./layout/partfolio";
+
 
 
