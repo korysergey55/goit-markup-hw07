@@ -1,16 +1,11 @@
 /* ====================== Components ================================*/
-.section {
-    margin: 0 auto;
-    padding-top: 95px;
-    padding-bottom: 95px;
-  }
   .logo {
     display: block;
     font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: bold;
     line-height: 1.2;
-    color: var(--akcent-color);
+    color: $akcent-color;
     text-decoration: none;
   }
   .logo-black {
@@ -19,6 +14,4 @@
   .logo-white {
     color: #ffffff;
   }
-  .navi-list .link.current {
-    color: var(--akcent-color);
-  }
+  

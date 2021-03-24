@@ -22,3 +22,11 @@ img {
 .address {
   font-style: normal;
 }
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: $bg-color;
+  color: $text-color;
+  margin: 0;
+}

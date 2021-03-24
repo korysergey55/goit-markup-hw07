@@ -19,7 +19,7 @@
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--text-color);
+    color: $text-color;
     border: none;
     border-radius: 4px;
   
@@ -58,7 +58,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--text-color);
+    color: $text-color;
   }
   .partfolio-list .text {
     display: block;
@@ -68,7 +68,7 @@
     font-size: 16px;
     text-align: start;
     line-height: 1.9;
-    color: var(--secindary-text-color);
+    color: $secindary-text-color;
   }
   /* ====================== Переходы =======================================*/
   .thumb-text-cart {

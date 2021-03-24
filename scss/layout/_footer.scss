@@ -6,7 +6,7 @@
   .footer {
     padding-bottom: 60px;
     padding-top: 60px;
-    background-color: var(--baner-color);
+    background-color: $baner-color;
   }
   .footer .address {
     display: block;
@@ -65,7 +65,7 @@
   }
   .footer-social-link:hover,
   .footer-social-link:focus {
-    background-color: var(--akcent-color);
+    background-color: $akcent-color;
   }
   /* ======================Footer-Form=======================================*/
   .title-footer-form{

@@ -1,9 +1,13 @@
+/* =========== UTILS ===========*/
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+/* ===========BASE===========*/
 @import "./base/common";
 @import "./base/container";
 /* =========== COMPONENTNS ===========*/
-@import "./components/common-components";
+@import "./components/section";
+@import "./components/title";
+@import "./components/logo";
 @import "./components/backdrop";
 @import "./components/modal-window-form";
 /* ===========LAYOUT===========*/
