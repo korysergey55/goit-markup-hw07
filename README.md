@@ -1,32 +1,15 @@
 
-1.Выполнен рефакторинг CSS-кода проекта используя препроцессор SASS.
+-Выполнен рефакторинг CSS-кода проекта используя препроцессор SASS.
 
-2.В корне проэкта созданна скрытая папка- .vscode в папке созданна еще одна папка- settings.json в которую загружаем настройки:
-{
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "/css"
-        },
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "/css"
-        }
-    ],
-    "liveSassCompile.settings.excludeList": [
-        "**/node_modules/**",
-        ".vscode/**"
-    ],
-    "liveSassCompile.settings.generateMap": true,
-    "liveServer.settings.port": 1235,
-    "liveSassCompile.settings.autoprefix": null
-}
+-В корне проэкта созданна скрытая папка- .vscode в папке созданна еще одна папка- settings.json в которую загружаем настройки.
 
-3.Перед названии паршала ставим нижнее подчеркивание _  и ставим расширение scss.
+-Перед названии паршала ставим нижнее подчеркивание _  и ставим расширение scss.
 
-4.Все паршалы импортированны в main.scss через @import "./"; 
+-Все паршалы импортированны в main.scss  @import "./"; можно без нижнего подчеркивания и расширения.
+
+-Соблюденна каскадность.
+
+-Все паршалы лежат в отдельных папках:  
 
 @import "./utils/variables";
 @import "./utils/visually-hidden";
@@ -48,6 +31,5 @@
 @import "./layout/clients";
 @import "./layout/footer";
 @import "./layout/partfolio";
-
 
 
